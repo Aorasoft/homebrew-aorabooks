@@ -1,13 +1,13 @@
 cask "aorabooks-pos" do
-  version "0.4.1"
+  version "0.5.0"
 
   on_arm do
-    sha256 "9594c9a50be392688a9e71c6a269f99e6c461e02a943aa7053b5481342c9bb9a"
-    url "https://github.com/Aorasoft/aorabooks-pos-release/releases/download/v0.4.1/Aorabooks.POS_0.4.1_aarch64.dmg"
+    sha256 "c9e40a9609120727db98984e3f0926a3c2bfb6c1e560f2ad51535987b2af5e81"
+    url "https://github.com/Aorasoft/aorabooks-pos-release/releases/download/v0.5.0/Aorabooks.POS_0.5.0_aarch64.dmg"
   end
   on_intel do
-    sha256 "7dd35ee60bf79feaa10e4566b534c643880ca3a985dad6861f70dc5c081d2717"
-    url "https://github.com/Aorasoft/aorabooks-pos-release/releases/download/v0.4.1/Aorabooks.POS_0.4.1_x64.dmg"
+    sha256 "aba8b31f220e8eac8cbc21d4ee5795524bc410839a109cc6524d979ae93f6c1a"
+    url "https://github.com/Aorasoft/aorabooks-pos-release/releases/download/v0.5.0/Aorabooks.POS_0.5.0_x64.dmg"
   end
 
   name "Aorabooks POS"
